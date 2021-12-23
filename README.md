@@ -1,4 +1,4 @@
-# Sole&Ankle — Module 4 workshop
+# Sole & Ankle — Module 4 workshop
 
 In this workshop, our goal is to finish building an e-commerce store!
 
