@@ -23,20 +23,24 @@ const SuperHeader = () => {
 };
 
 const Wrapper = styled.div`
+  display: flex;
   font-size: 0.875rem;
   color: ${COLORS.gray[300]};
   background-color: ${COLORS.gray[900]};
+  border: 2px blue solid;
+  gap: 14px;
+  padding: 10px 32px;
 `;
 
 const MarketingMessage = styled.span`
   color: ${COLORS.white};
+  margin-right: auto;
 `;
 
 const HelpLink = styled.a`
   color: inherit;
   text-decoration: none;
   outline-offset: 2px;
-
   &:not(:focus-visible) {
     outline: none;
   }

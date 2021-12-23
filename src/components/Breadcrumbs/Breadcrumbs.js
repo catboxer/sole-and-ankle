@@ -32,7 +32,7 @@ const CrumbWrapper = styled.div`
 const CrumbLink = styled.a`
   color: ${COLORS.gray[700]};
   text-decoration: none;
-
+ 
   &:hover {
     color: ${COLORS.gray[900]};
   }
